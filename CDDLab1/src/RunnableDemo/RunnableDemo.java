@@ -14,10 +14,6 @@ class RunnableDemo implements Runnable {
     * Assign name to each thread.
     */
    private String threadName;
-
-   /**
-    * @param name
-    */
    RunnableDemo( String name) {
       threadName = name;
       System.out.println("Creating " +  threadName );
