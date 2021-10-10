@@ -5,8 +5,11 @@
 package RunnableDemo;
 
 /**
- *
  * @author KEHOEJ
+ */
+
+/**
+ * Create threads and run.
  */
 public class TestThread {
     public static void main(String args[]) {

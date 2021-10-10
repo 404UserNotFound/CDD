@@ -10,6 +10,9 @@ package RunnableDemo;
  */
 class RunnableDemo implements Runnable {
    private Thread t;
+   /**
+    * Assign name to each thread.
+    */
    private String threadName;
 
    /**
@@ -20,11 +23,17 @@ class RunnableDemo implements Runnable {
       System.out.println("Creating " +  threadName );
    }
 
+   /**
+    * Print thread messsage.
+    */
    @Override
    public void run() {
       System.out.println("Running " +  threadName );
       try {
          for(int i = 4; i > 0; i--) {
+            /**
+             * Iterate message 4 times.
+             */
             System.out.println("Thread: " + threadName + ", " + i);
             // Let the thread sleep for a while.
             Thread.sleep(50);
@@ -32,6 +41,9 @@ class RunnableDemo implements Runnable {
       } catch (InterruptedException e) {
          System.out.println("Thread " +  threadName + " interrupted.");
       }
+      /**
+       * Returns exit message.
+       */
       System.out.println("Thread " +  threadName + " exiting.");
    }
    
