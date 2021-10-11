@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="babbd6cf-796a-43ca-8931-caf7e6a85f6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDDLab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LabTwo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/originalcode/IntegerObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/originalcode/IntegerObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/originalcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/originalcode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/originalcode/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/originalcode/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LabTwo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="originalcode.Main" />
+      <module name="LabTwo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,5 +57,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
