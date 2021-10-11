@@ -24,7 +24,7 @@ private String name;
     {
         try
         {
-            for (int i = 0; i<=500; i++)
+            for (int i = 0; i<500; i++)
             {
                 total.inc();
                 if (i%100==0){

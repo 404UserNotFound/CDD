@@ -14,7 +14,7 @@ class IntegerObj {
     IntegerObj(int val) {
         this.value = val;
     }
-    int inc(){
+    synchronized int inc(){
         this.value++;
         return this.value;
     }

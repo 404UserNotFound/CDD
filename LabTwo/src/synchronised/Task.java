@@ -22,17 +22,15 @@ private String name;
     
     public void run()
     {
-        try
-        {
-            for (int i = 0; i<=500; i++)
-            {
-                total.inc();
-                if (i%100==0){
-                   Thread.sleep(100); 
+        try {
+                for (int i = 0; i < 500; i++) {
+                    total.inc();
+                    if (i % 100 == 0) {
+                        Thread.sleep(100);
+                    }
+
                 }
-                
-            }
-            System.out.println(name+" complete");
+                System.out.println(name + " complete");
         }
         catch(InterruptedException e)
         {
