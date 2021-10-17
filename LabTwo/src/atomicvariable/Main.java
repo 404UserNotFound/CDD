@@ -8,12 +8,16 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
  *
  * @author joe
+ *  edited by: Mihaela Brodetchi C00242687
+ *  date: 11/10/2021
+ *  license: GNU General Public License v2.0
  */
 public class Main {
     
@@ -22,7 +26,7 @@ public class Main {
   
     public static void main(String[] args)
     {
-        IntegerObj total= new IntegerObj(0);
+        IntegerObj total= new IntegerObj(new AtomicInteger());
         // creates five tasks
         Runnable r1 = new Task("task 1",total);
         Runnable r2 = new Task("task 2",total);

@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="babbd6cf-796a-43ca-8931-caf7e6a85f6f" name="Changes" comment="">
+    <list default="true" id="babbd6cf-796a-43ca-8931-caf7e6a85f6f" name="Changes" comment="fixed i&lt;=500 and added synchronization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atomicvariable/IntegerObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomicvariable/IntegerObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atomicvariable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomicvariable/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atomicvariable/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomicvariable/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mutexvariable/IntegerObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mutexvariable/IntegerObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mutexvariable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mutexvariable/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mutexvariable/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mutexvariable/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/originalcode/IntegerObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/originalcode/IntegerObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/originalcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/originalcode/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/originalcode/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/originalcode/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/synchronised/IntegerObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/synchronised/IntegerObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/synchronised/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/synchronised/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/synchronised/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/synchronised/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -34,10 +48,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="atomicvariable" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="LabTwo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="originalcode.Main" />
       <module name="LabTwo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atomicvariable.Main" />
+      <module name="LabTwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atomicvariable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -57,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -70,6 +103,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633438073814</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed i&lt;=500 and added synchronization">
+      <created>1633944440018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633944440018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +124,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed i&lt;=500 and added synchronization" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed i&lt;=500 and added synchronization" />
   </component>
 </project>

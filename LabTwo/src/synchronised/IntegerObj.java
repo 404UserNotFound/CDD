@@ -8,6 +8,9 @@ package synchronised;
 /**
  *
  * @author joe
+ *  edited by: Mihaela Brodetchi C00242687
+ *  date: 11/10/2021
+ *  license: GNU General Public License v2.0
  */
 class IntegerObj {
     int value;
