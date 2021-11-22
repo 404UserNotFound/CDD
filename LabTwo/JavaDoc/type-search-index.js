@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"atomicvariable","l":"Main"},{"p":"mutexvariable","l":"Main"},{"p":"originalcode","l":"Main"},{"p":"synchronised","l":"Main"},{"p":"atomicvariable","l":"Task"},{"p":"mutexvariable","l":"Task"},{"p":"originalcode","l":"Task"},{"p":"synchronised","l":"Task"}]
