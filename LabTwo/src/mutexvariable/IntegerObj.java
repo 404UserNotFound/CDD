@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package mutexvariable;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  *
@@ -14,11 +15,15 @@ package mutexvariable;
  */
 class IntegerObj {
     int value;
+    ReentrantLock mutex = new ReentrantLock();
+
     IntegerObj(int val) {
         this.value = val;
     }
     int inc(){
+        mutex.lock();
         this.value++;
+        mutex.unlock();
         return this.value;
     }
 }

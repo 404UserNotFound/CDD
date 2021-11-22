@@ -22,7 +22,6 @@ private String name;
         name=task_1;
         this.total = total;
     }
-    
     public void run()
     {
         try
@@ -31,12 +30,13 @@ private String name;
             {
                 total.inc();
                 if (i%100==0){
-                   Thread.sleep(100); 
+                   Thread.sleep(100);
                 }
-                
+
             }
             System.out.println(name+" complete");
         }
+
         catch(InterruptedException e)
         {
             e.printStackTrace();
