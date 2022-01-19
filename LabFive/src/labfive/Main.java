@@ -1,14 +1,15 @@
 package labfive;
 /**
  *
- * @author Mihaela Brodetchi C00242687
+ * @author Joe
+ * edited by: Mihaela Brodetchi C00242687
  *  date: 1/11/2021
  *  license: GNU General Public License v2.0
  */
 public class Main {
     static final int MAX_T = 4;
     public static void main(String[] args){
-        IntegerObj total= new IntegerObj(0);
+        /**IntegerObj total= new IntegerObj(0);*/
         // creates five tasks
         Runnable r1 = new Task("task 1",total);
         Runnable r2 = new Task("task 2",total);
@@ -27,11 +28,11 @@ public class Main {
 
         // pool shutdown ( Step 4)
         pool.shutdown();
-        try {
+        /**try {
             Thread.sleep(2500);
         } catch (InterruptedException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
-        System.out.println("total is: "+total.value);
+        System.out.println("total is: "+total.value);*/
     }
 }
