@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="babbd6cf-796a-43ca-8931-caf7e6a85f6f" name="Changes" comment="commented in author/license/date">
-      <change afterPath="$PROJECT_DIR$/../LabFive/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabFive/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabFive/src/labfive/Follower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabFive/src/labfive/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabFive/src/labfive/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atomicvariable/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atomicvariable/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atomicvariable/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atomicvariable/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atomicvariable/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="babbd6cf-796a-43ca-8931-caf7e6a85f6f" name="Changes" comment="Fix mutex, generate Javadoc">
+      <change afterPath="$PROJECT_DIR$/../LabThree/LabThree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabThree/src/Barrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabThree/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mutexvariable/IntegerObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mutexvariable/IntegerObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mutexvariable/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mutexvariable/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634508049881</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix mutex, generate Javadoc">
+      <created>1637573357149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637573357149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed i&lt;=500 and added synchronization" />
     <MESSAGE value="commented in author/license/date" />
-    <option name="LAST_COMMIT_MESSAGE" value="commented in author/license/date" />
+    <MESSAGE value="Fix mutex, generate Javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix mutex, generate Javadoc" />
   </component>
 </project>
