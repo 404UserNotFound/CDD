@@ -6,6 +6,9 @@ package RunnableDemo;
 
 /**
  * @author KEHOEJ
+ * edited by: Mihaela Brodetchi C00242687
+ * 5/10/2021
+ * GNU General Public License v2.0
  */
 
 /**
