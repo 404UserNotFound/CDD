@@ -5,6 +5,9 @@
  * license: GNU General Public License v2.0
  */
 
+//This shows a reusable barrier in action, utilising only semaphores
+//The loop gives it the reusable functionality.
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
