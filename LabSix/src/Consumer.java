@@ -5,7 +5,7 @@
  *Create a Java project that shows a solution to the producers-consumers problem.
  * The solution must be implemented as one or more Java classes that utilises only semaphores.
  */
-class Consumer implements Runnable {
+public class Consumer implements Runnable {
     Queue queue;
     int index;
     Consumer(Queue queue) {
