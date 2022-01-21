@@ -34,7 +34,7 @@ public class Philosophers {
     static void runPhilosopher(Philosophers diningPhil, int id) {
         try {
             diningPhil.philosopherActions(id);  //start eating and thinking
-        } catch (InterruptedException ie) {
+        } catch (InterruptedException e) {
 
         }
     }
