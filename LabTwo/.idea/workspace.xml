@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="babbd6cf-796a-43ca-8931-caf7e6a85f6f" name="Changes" comment="Fix mutex, generate Javadoc" />
+    <list default="true" id="babbd6cf-796a-43ca-8931-caf7e6a85f6f" name="Changes" comment="Fix mutex, generate Javadoc">
+      <change afterPath="$PROJECT_DIR$/../LabFive/src/labfive/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabSeven/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabFive/src/labfive/Follower.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabFive/src/labfive/Follower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabFive/src/labfive/Leader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabFive/src/labfive/Leader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabFive/src/labfive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabFive/src/labfive/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
