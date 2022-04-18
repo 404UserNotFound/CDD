@@ -1,2 +1,2 @@
 # CDD
-Concurrent Device Development Labs
+Concurrent Device Development Labs using Java
